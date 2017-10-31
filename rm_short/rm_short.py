@@ -8,7 +8,7 @@ import argparse
 
 ##################################################
 
-parser = argparse.ArgumentParser(description = 'The purpose of this is to remove contigs > 500 bp from the genome assembly')
+parser = argparse.ArgumentParser(description = 'The purpose of this is to remove contigs > N bp from the genome assembly')
 # create argparse
 parser.add_argument('-input',
                     help = 'genome assembly, .fasta or .faa.')
